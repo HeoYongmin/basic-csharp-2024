@@ -329,7 +329,9 @@
     - 윈도우 탐색기 앱 종료
         - 실행결과
 
-        
+        https://github.com/HeoYongmin/basic-csharp-2024/assets/158007383/3cc3df65-94b6-4d7f-a1bb-fa5fe3725cef
+
+
     
     - 도서관리 앱 with SQL Server(Base)
 
