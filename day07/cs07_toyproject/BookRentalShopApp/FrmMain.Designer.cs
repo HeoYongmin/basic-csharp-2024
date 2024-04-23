@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             MnsBookRental = new MenuStrip();
+            StsBookRental = new StatusStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
             toolStripMenuItem3 = new ToolStripMenuItem();
-            StsBookRental = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             toolStripStatusLabel2 = new ToolStripStatusLabel();
             toolStripStatusLabel3 = new ToolStripStatusLabel();
@@ -44,11 +44,20 @@
             // MnsBookRental
             // 
             MnsBookRental.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2, toolStripMenuItem3 });
-            MnsBookRental.Location = new Point(20, 60);
+            MnsBookRental.Location = new Point(0, 0);
             MnsBookRental.Name = "MnsBookRental";
-            MnsBookRental.Size = new Size(760, 24);
-            MnsBookRental.TabIndex = 0;
+            MnsBookRental.Size = new Size(800, 24);
+            MnsBookRental.TabIndex = 1;
             MnsBookRental.Text = "menuStrip1";
+            // 
+            // StsBookRental
+            // 
+            StsBookRental.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2, toolStripStatusLabel3 });
+            StsBookRental.Location = new Point(0, 428);
+            StsBookRental.Name = "StsBookRental";
+            StsBookRental.Size = new Size(800, 22);
+            StsBookRental.TabIndex = 2;
+            StsBookRental.Text = "statusStrip1";
             // 
             // toolStripMenuItem1
             // 
@@ -68,32 +77,20 @@
             toolStripMenuItem3.Size = new Size(72, 20);
             toolStripMenuItem3.Text = "도움말(&H)";
             // 
-            // StsBookRental
-            // 
-            StsBookRental.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2, toolStripStatusLabel3 });
-            StsBookRental.Location = new Point(20, 408);
-            StsBookRental.Name = "StsBookRental";
-            StsBookRental.Size = new Size(760, 22);
-            StsBookRental.TabIndex = 1;
-            StsBookRental.Text = "statusStrip1";
-            // 
             // toolStripStatusLabel1
             // 
-            toolStripStatusLabel1.BackColor = SystemColors.Control;
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             toolStripStatusLabel1.Size = new Size(83, 17);
             toolStripStatusLabel1.Text = "로그인 아이디";
             // 
             // toolStripStatusLabel2
             // 
-            toolStripStatusLabel2.BackColor = SystemColors.Control;
             toolStripStatusLabel2.Name = "toolStripStatusLabel2";
             toolStripStatusLabel2.Size = new Size(40, 17);
             toolStripStatusLabel2.Text = "UserId";
             // 
             // toolStripStatusLabel3
             // 
-            toolStripStatusLabel3.BackColor = SystemColors.Control;
             toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             toolStripStatusLabel3.Size = new Size(109, 17);
             toolStripStatusLabel3.Text = "LastLoginDateTime";
@@ -102,13 +99,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonShadow;
             ClientSize = new Size(800, 450);
             Controls.Add(StsBookRental);
             Controls.Add(MnsBookRental);
             Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
-            Location = new Point(0, 0);
             MainMenuStrip = MnsBookRental;
             Name = "FrmMain";
             Text = "책 대여점 v1.1";
@@ -124,10 +119,10 @@
         #endregion
 
         private MenuStrip MnsBookRental;
+        private StatusStrip StsBookRental;
         private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripMenuItem toolStripMenuItem2;
         private ToolStripMenuItem toolStripMenuItem3;
-        private StatusStrip StsBookRental;
         private ToolStripStatusLabel toolStripStatusLabel1;
         private ToolStripStatusLabel toolStripStatusLabel2;
         private ToolStripStatusLabel toolStripStatusLabel3;

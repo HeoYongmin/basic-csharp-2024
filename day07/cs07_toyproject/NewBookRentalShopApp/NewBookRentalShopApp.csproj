@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA4BD35E-C128-48D0-9644-FD76543E9AC6}</ProjectGuid>
+    <ProjectGuid>{6F7C6A71-4D6D-4EB9-B82A-08DCFA6A3F41}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>NewBookRentalShopApp</RootNamespace>
     <AssemblyName>NewBookRentalShopApp</AssemblyName>
@@ -35,9 +35,6 @@
   <PropertyGroup>
     <ApplicationIcon>books.ico</ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
@@ -61,11 +58,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBookInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookInfo.Designer.cs">
+      <DependentUpon>FrmBookInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookDivision.Designer.cs">
+      <DependentUpon>FrmBookDivision.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLoginUser.cs">
       <SubType>Form</SubType>
@@ -79,10 +88,17 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper\Common.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBookInfo.resx">
+      <DependentUpon>FrmBookInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookDivision.resx">
+      <DependentUpon>FrmBookDivision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLoginUser.resx">
       <DependentUpon>FrmLoginUser.cs</DependentUpon>
@@ -116,7 +132,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="books.ico" />
-    <None Include="imgs\login.png" />
+    <Content Include="imgs\book.ico" />
+    <Content Include="imgs\book.png" />
+    <Content Include="imgs\division.ico" />
+    <Content Include="imgs\division.png" />
+    <Content Include="imgs\login.ico" />
+    <Content Include="imgs\login.png" />
+    <Content Include="imgs\member.ico" />
+    <Content Include="imgs\member.png" />
+    <Content Include="imgs\rental.ico" />
+    <Content Include="imgs\rental.png" />
+    <None Include="login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
