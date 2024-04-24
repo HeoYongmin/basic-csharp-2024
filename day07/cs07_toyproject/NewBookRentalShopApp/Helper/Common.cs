@@ -6,10 +6,20 @@ namespace NewBookRentalShopApp.Helper
     public class Common
     {
         // 정적으로 만드는 공통 연결문자열
-        public static string Connstring = "Data Source=localhost;" +
+        public static readonly string Connstring = "Data Source=localhost;" +
                                     "Initial Catalog=BookRentalShop2024;" +
                                     "Persist Security Info=True;" +
                                     "User ID=sa;Encrypt=False;Password=mssql_p@ss";
+
+        // 로그인아이디
+        public static string LoginId { get; set; }
+
+        // 회원 선택팝업에서 대출화면으로 넘길데이터 정적프로퍼티
+        public static string SelMemberIdx {  get; set; }
+        public static string SelMemberName { get; set; }
+        public static string SelBookIdx { get; set; }
+        public static string SelBookName { get; set; }
+
 
         // MD5 해시 알고리즘 암호화
         // 1234 -> 01011011 -> 110010101101011 -> x65xAEx11..

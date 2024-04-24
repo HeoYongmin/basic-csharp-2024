@@ -17,6 +17,9 @@ namespace NewBookRentalShopApp
         FrmLoginUser frmLoginUser = null; // 객체를 메서드로 생성
         FrmBookDivision frmBookDivision = null;
         FrmBookInfo frmBookInfo = null;
+        FrmMembers frmMembers = null; // FrmMember: 클래스, frmMember: 객체변수
+        FrmBookRental frmBookRental = null;
+
         public FrmMain()
         {
             InitializeComponent();
@@ -29,6 +32,8 @@ namespace NewBookRentalShopApp
             frm.StartPosition = FormStartPosition.CenterScreen;
             frm.TopMost = true; // 가장윈도우화면 상단에
             frm.ShowDialog();
+
+            LblLoginId.Text = Helper.Common.LoginId; // 메인창에 로그인된 아이디 표시
         }
 
         private void MnuLoginUsers_Click(object sender, EventArgs e)
@@ -47,6 +52,15 @@ namespace NewBookRentalShopApp
         {
             // 객체변수, 객체변수, 클래스, 클래스
             frmBookInfo = ShowActiveForm(frmBookInfo, typeof(FrmBookInfo)) as FrmBookInfo;
+        }
+        private void MnuMembers_Click(object sender, EventArgs e)
+        {
+            frmMembers = ShowActiveForm(frmMembers, typeof(FrmMembers)) as FrmMembers;
+        }
+
+        private void MnuBookRental_Click(object sender, EventArgs e)
+        {
+            frmBookRental = ShowActiveForm(frmBookRental, typeof(FrmBookRental)) as FrmBookRental;
         }
 
         Form ShowActiveForm(Form form, Type type)
@@ -75,5 +89,11 @@ namespace NewBookRentalShopApp
             return form;
         }
 
+        private void MnuAbout_Click(object sender, EventArgs e)
+        {
+            FrmAbout popup = new FrmAbout();
+            popup.StartPosition = FormStartPosition.CenterParent;
+            popup.ShowDialog();
+        }
     }
 }
