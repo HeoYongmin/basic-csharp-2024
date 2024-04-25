@@ -118,7 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trousers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\trousers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2160x1440 ucuxdwue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2160x1440 ucuxdwue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gloves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\gloves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-jeans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SpringImg\blue-jeans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="denim-shorts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\denim-shorts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spring.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sweater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\sweater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hoodie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SpringImg\hoodie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tshirt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\tshirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\coat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mens-shoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\mens-shoes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="denim-jacket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SpringImg\denim-jacket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\sandals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\pants.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\padding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\coat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\jacket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sneakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SpringImg\sneakers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SummerImg\clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FallImg\boot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tshirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\tshirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hawaiian-shirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\hawaiian-shirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jumper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\jumper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SummerImg\clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardigan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SpringImg\cardigan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter-scarf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WinterImg\winter-scarf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
